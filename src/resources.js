@@ -1,5 +1,5 @@
 export const resources = {
-    INTRO: "Hi, I'm Krzysztof, Software Engineer in the Chicagoland Area",
+    INTRO: "Hi, I'm Krzysztof, a Software Engineer in the Chicagoland Area",
     SOCIAL_MEDIA_NAMES : {
         LINKEDIN : "LinkedIn",
         GITHUB : "Github"
