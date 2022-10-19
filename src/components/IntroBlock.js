@@ -1,3 +1,4 @@
+import React from 'react';
 function IntroBlock(props) {
     const introStyle = {  
         fontSize : '40px',

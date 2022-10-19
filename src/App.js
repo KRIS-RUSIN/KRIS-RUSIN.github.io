@@ -1,3 +1,4 @@
+import React from 'react';
 import IntroBlock from './components/IntroBlock';
 import './App.css';
 import { resources } from './resources';

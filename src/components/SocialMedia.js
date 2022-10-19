@@ -1,3 +1,4 @@
+import React from 'react';
 import { resources } from "../resources";
 import '../styles.css';
 function SocialMedia() {
