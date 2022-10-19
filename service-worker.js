@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "krisrusin.com/precache-manifest.1dd795609f73cc0c558a84a7fe766c41.js"
+  "www.krisrusin.com/precache-manifest.52c5a50a32691fe287cd3bc50f828edd.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("krisrusin.com/index.html", {
+workbox.routing.registerNavigationRoute("www.krisrusin.com/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
