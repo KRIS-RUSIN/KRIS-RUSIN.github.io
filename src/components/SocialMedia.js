@@ -1,6 +1,6 @@
 import React from 'react';
 import { resources } from "../resources";
-import '../styles.css';
+import '../css/styles.css';
 function SocialMedia() {
     const wrapperStyle = {
         marginTop: '20px',
