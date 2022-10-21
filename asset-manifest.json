@@ -1,13 +1,13 @@
 {
-  "main.css": "www.krisrusin.com/index.html/static/css/main.b8005636.chunk.css",
-  "main.js": "www.krisrusin.com/index.html/static/js/main.5815fb62.chunk.js",
-  "main.js.map": "www.krisrusin.com/index.html/static/js/main.5815fb62.chunk.js.map",
-  "runtime~main.js": "www.krisrusin.com/index.html/static/js/runtime~main.7ee3adde.js",
-  "runtime~main.js.map": "www.krisrusin.com/index.html/static/js/runtime~main.7ee3adde.js.map",
-  "static/js/2.2ce2ee5f.chunk.js": "www.krisrusin.com/index.html/static/js/2.2ce2ee5f.chunk.js",
-  "static/js/2.2ce2ee5f.chunk.js.map": "www.krisrusin.com/index.html/static/js/2.2ce2ee5f.chunk.js.map",
-  "index.html": "www.krisrusin.com/index.html/index.html",
-  "precache-manifest.93dff866674b90ce34c1d609e3b70f78.js": "www.krisrusin.com/index.html/precache-manifest.93dff866674b90ce34c1d609e3b70f78.js",
-  "service-worker.js": "www.krisrusin.com/index.html/service-worker.js",
-  "static/css/main.b8005636.chunk.css.map": "www.krisrusin.com/index.html/static/css/main.b8005636.chunk.css.map"
+  "main.css": "www.krisrusin.com/static/css/main.b8005636.chunk.css",
+  "main.js": "www.krisrusin.com/static/js/main.5815fb62.chunk.js",
+  "main.js.map": "www.krisrusin.com/static/js/main.5815fb62.chunk.js.map",
+  "runtime~main.js": "www.krisrusin.com/static/js/runtime~main.31e65901.js",
+  "runtime~main.js.map": "www.krisrusin.com/static/js/runtime~main.31e65901.js.map",
+  "static/js/2.2ce2ee5f.chunk.js": "www.krisrusin.com/static/js/2.2ce2ee5f.chunk.js",
+  "static/js/2.2ce2ee5f.chunk.js.map": "www.krisrusin.com/static/js/2.2ce2ee5f.chunk.js.map",
+  "index.html": "www.krisrusin.com/index.html",
+  "precache-manifest.a0eb3f2d7afdd4127605ce88e88c78a2.js": "www.krisrusin.com/precache-manifest.a0eb3f2d7afdd4127605ce88e88c78a2.js",
+  "service-worker.js": "www.krisrusin.com/service-worker.js",
+  "static/css/main.b8005636.chunk.css.map": "www.krisrusin.com/static/css/main.b8005636.chunk.css.map"
 }
