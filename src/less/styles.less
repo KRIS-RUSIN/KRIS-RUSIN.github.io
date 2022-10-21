@@ -5,31 +5,58 @@
     justify-content: center;
     min-width: fit-content;
     min-height: fit-content;
-    a {
-        margin-left: 2%;
-        margin-right: 2%;
-        min-width: fit-content;
-        min-height: fit-content;
-        img {
-            max-width: 5vw;
-            transition: 0.5s all ease-in-out;
-            &:hover {
-                transform: scale(1.5);
+    @media screen and (orientation: landscape) {
+        a {
+            margin-left: 2%;
+            margin-right: 2%;
+            min-width: fit-content;
+            min-height: fit-content;
+            img {
+                max-width: 5vw;
+                transition: 0.5s all ease-in-out;
+                &:hover {
+                    transform: scale(1.5);
+                }
             }
         }
     }
-
+    @media screen and (orientation: portrait) {
+        a {
+            margin-left: 2%;
+            margin-right: 2%;
+            min-width: fit-content;
+            min-height: fit-content;
+            img {
+                max-width: 5vh;
+                transition: 0.5s all ease-in-out;
+                &:hover {
+                    transform: scale(1.5);
+                }
+            }
+        }
+    }
 }
 .IntroBlockStyle {
     margin: 10% auto 0;
     display: flex;
     justify-content: center;
-    height: 40%;
-    width: 40%;
     text-align: center;
     min-height: fit-content;
+    @media screen and (orientation: landscape) {
+        height: 40%;
+        width: 40vw;
+    }
+    @media screen and (orientation: portrait) {
+        height: 40%;
+        width: 40vh;
+    }
     label {
-        font-size : 2.5vw;
+        @media screen and (orientation: landscape) {
+            font-size : 2.5vw;
+        }
+        @media screen and (orientation: portrait) {
+            font-size : 2.5vh;
+        }
         font-family: 'Courier New', Courier, monospace;
     }
 }
