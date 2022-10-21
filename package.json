@@ -2,7 +2,7 @@
   "name": "kris",
   "version": "0.1.0",
   "private": false,
-  "homepage": "www.krisrusin.com",
+  "homepage": "https://KRIS-RUSIN.github.io/",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.5",
