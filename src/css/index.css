@@ -10,5 +10,8 @@ code {
 html {
   height: 100%;
   background-image: linear-gradient(to bottom right, purple, white);
+  background-attachment: fixed;
+  min-width: fit-content;
+  min-height: fit-content;
 }
 /*# sourceMappingURL=index.css.map */
