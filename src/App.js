@@ -1,14 +1,21 @@
 import React from 'react';
-import IntroBlock from './components/IntroBlock';
 import './css/./App.css';
-import { resources } from './resources';
-import SocialMedia from './components/SocialMedia';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import About from './pages/about';
+import Home from './pages/home';
 
 function App() {
   return (
     <div className="App">
-      <IntroBlock Intro={resources.INTRO}></IntroBlock>
-      <SocialMedia></SocialMedia>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='*' element={<Home/>} />
+          <Route path='/pages/about' element={<About/>} />
+        </Routes>
+      </Router>
     </div>
   );
 }
