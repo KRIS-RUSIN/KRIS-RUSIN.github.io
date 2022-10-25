@@ -42,13 +42,10 @@ export const Bars = styled(FaBars)`
   display: none;
   color: #000000;
   @media screen and (max-width: 768px) {
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      transform: translate(-100%, 75%);
+      display: inline-block;
       font-size: 3rem;
       cursor: pointer;
+      margin:0;
     }
 `;
   
