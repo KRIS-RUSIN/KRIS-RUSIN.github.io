@@ -70,7 +70,39 @@
         max-width: 40vw;
     }
 }
+
 .Home {
   width: @app-size;
   height: @app-size;
+}
+
+.showMenu {
+    display: none;
+    @media screen and (max-width: 768px) {
+        display: flex !important;
+        flex-direction: column;
+        background-image: linear-gradient(to bottom right,purple, white);
+        width:100vw;
+        height: fit-content;
+        padding-top: 85px;
+        z-index: 9;
+        margin-left: -2rem;
+        margin-right: -2rem; 
+    }
+    
+}
+.hamburgerButton{
+    display: none;
+    @media screen and (max-width: 768px) {
+        background-color: transparent;
+        border: none;;
+        width: 85px;
+        height: 85px;
+        display: block;
+        position: absolute;
+        top:0;
+        right:0;
+        cursor: pointer;
+        z-index: 10;
+    }
 }

@@ -8,7 +8,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 html {
-  height: 100%;
   background-image: linear-gradient(to bottom right, purple, white);
   background-attachment: fixed;
   min-width: fit-content;

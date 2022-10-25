@@ -9,6 +9,8 @@ export const Nav = styled.nav`
   justify-content: flex-end;
   padding: 0 2rem;
   z-index: 12;
+  width:calc(100vw - 4rem);
+  }
 `;
   
 export const NavLink = styled(Link)`
@@ -16,11 +18,10 @@ export const NavLink = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 3rem;
-  height: 100%;
+  padding: 3rem 3rem;
   cursor: pointer;
   &:hover {
-    transform: scale(1.5);
+    transform: scale(1.25);
   }
   &.active {
     transform: scale(1.5);
@@ -28,32 +29,31 @@ export const NavLink = styled(Link)`
   transition: 0.5s all ease-in-out;
   font-weight: bold;
   font-family: Courier New, Courier, monospace;
-  font-size: 1.5em;
+  font-size: 2em;
+  @media screen and (max-width: 768px) {
+    padding: 2rem 3rem;
+    font-size: 3em;
+  }
 `;
   
 export const Bars = styled(FaBars)`
   display: none;
-  color: #808080;
+  color: #000000;
   @media screen and (max-width: 768px) {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 75%);
-    font-size: 1.8rem;
-    cursor: pointer;
-  }
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 75%);
+      font-size: 3rem;
+      cursor: pointer;
+    }
 `;
   
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-right: -24px;
-  /* Second Nav */
-  /* margin-right: 24px; */
-  /* Third Nav */
-  /* width: 100vw;
-  white-space: nowrap; */
+  padding:6rem 1.1rem;
   @media screen and (max-width: 768px) {
     display: none;
   }
