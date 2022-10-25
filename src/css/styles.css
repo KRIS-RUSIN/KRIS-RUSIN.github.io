@@ -112,6 +112,7 @@
     cursor: pointer;
     z-index: 10;
     text-align: center;
+    -webkit-tap-highlight-color: transparent;
   }
 }
 /*# sourceMappingURL=styles.css.map */

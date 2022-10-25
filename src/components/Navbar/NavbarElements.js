@@ -44,8 +44,8 @@ export const Bars = styled(FaBars)`
   @media screen and (max-width: 768px) {
       display: inline-block;
       font-size: 3rem;
-      cursor: pointer;
       margin:0;
+      -webkit-tap-highlight-color: transparent;
     }
 `;
   
