@@ -69,12 +69,29 @@
   }
 }
 .About {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-top: 10vh;
 }
-.About img {
-  max-width: 40vw;
+.About h1 {
+  font-size: 60px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+.About div {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.About div img {
+  margin-left: 2vw;
+  min-width: 20vw;
+}
+.About div div {
+  margin: 0;
+}
+.About div div label {
+  font-size: 3vh !important;
+  margin-right: 2vw;
 }
 .Home {
   width: 100%;
@@ -114,5 +131,14 @@
     text-align: center;
     -webkit-tap-highlight-color: transparent;
   }
+}
+.aboutPicImg {
+  width: 10vw;
+  height: auto;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 0.75em double black;
+  display: inline-block;
+  transform: rotate(5deg);
 }
 /*# sourceMappingURL=styles.css.map */
